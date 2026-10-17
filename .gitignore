@@ -1,0 +1,19 @@
+# secrets
+.env
+.streamlit/secrets.toml
+# local environment and caches
+venv/
+__pycache__/
+*.pyc
+# personal data: resumes and exported results
+*.pdf
+*.docx
+temp_resume.*
+job_matches*.csv
+# backups made while following PLAN_career_directions.md
+backup_before_directions/
+# auto-fill: your saved answers, resume copy, browser profile and logs
+my_data/
+
+# backups made before the portfolio-page feature
+backup_before_portfolio/

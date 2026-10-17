@@ -1,0 +1,350 @@
+# Company career boards searched by the app (boards.py). One per line:  ats:slug  Display name
+# ats is greenhouse, lever or ashby; the slug is the part after the domain in the company's job-board URL:
+#   boards.greenhouse.io/<slug>  ·  job-boards.greenhouse.io/<slug>  ·  jobs.lever.co/<slug>  ·  jobs.ashbyhq.com/<slug>
+# Add or delete lines freely; '#' starts a comment. Searches append companies they find in Indeed/LinkedIn
+# apply links at the bottom. Starter list checked live on 2026-10-09 (303 boards, ~26,000 open jobs).
+
+# --- Ashby ---
+ashby:1password  1Password
+ashby:1x  1X
+ashby:abacum  Abacum
+ashby:abridge  Abridge
+ashby:acorns  Acorns
+ashby:airbyte  Airbyte
+ashby:alchemy  Alchemy
+ashby:ambiencehealthcare  Ambience Healthcare
+ashby:amplitude  Amplitude
+ashby:anyscale  Anyscale
+ashby:artisan  Artisan
+ashby:atomic  Atomic
+ashby:attio  Attio
+ashby:baseten  Baseten
+ashby:benchling  Benchling
+ashby:bland  Bland
+ashby:braintrust  Braintrust
+ashby:browserbase  Browserbase
+ashby:capchase  Capchase
+ashby:cartesia  Cartesia
+ashby:causal  Causal Labs
+ashby:cerebras  Cerebras Systems
+ashby:chaidiscovery  Chai Discovery
+ashby:circle  Circle
+ashby:clerk  Clerk
+ashby:clickhouse  ClickHouse
+ashby:clickup  ClickUp
+ashby:codat  Codat
+ashby:cognition  Cognition
+ashby:cohere  Cohere
+ashby:column  Column
+ashby:commure  Commure
+ashby:confluent  Confluent
+ashby:consensys  Consensys
+ashby:crusoe  Crusoe
+ashby:cube  CUBE
+ashby:cursor  Cursor
+ashby:dave  Dave
+ashby:decagon  Decagon
+ashby:deepgram  Deepgram
+ashby:deepl  DeepL
+ashby:drata  Drata
+ashby:dust  Dust
+ashby:e2b  E2B
+ashby:elevenlabs  ElevenLabs
+ashby:etched  Etched
+ashby:exa  Exa
+ashby:factory  Factory
+ashby:fathom  Fathom
+ashby:finch  Finch Care
+ashby:firecrawl  Firecrawl
+ashby:freed  Freed
+ashby:fullstory  Fullstory
+ashby:gainsight  Gainsight
+ashby:gamma  Gamma
+ashby:genmo  Genmo
+ashby:gorgias  Gorgias
+ashby:granola  Granola
+ashby:handshake  Handshake
+ashby:harvey  Harvey
+ashby:headway  Headway
+ashby:hedra  Hedra
+ashby:hex  Hex
+ashby:ideogram  Ideogram
+ashby:infinitus  Infinitus Systems
+ashby:insitro  insitro
+ashby:iterable  Iterable
+ashby:kong  Kong
+ashby:krea  Krea
+ashby:lambda  Lambda
+ashby:langchain  LangChain
+ashby:linear  Linear
+ashby:livekit  LiveKit
+ashby:llamaindex  LlamaIndex
+ashby:loopio  Loopio Inc.
+ashby:lovable  Lovable
+ashby:mercor  Mercor
+ashby:merge  Merge
+ashby:midjourney  Midjourney
+ashby:mintlify  Mintlify
+ashby:miro  Miro
+ashby:modal  Modal
+ashby:moderntreasury  Modern Treasury
+ashby:mosaic  Mosaic
+ashby:motherduck  MotherDuck
+ashby:mux  Mux
+ashby:n8n  n8n
+ashby:nabla  Nabla
+ashby:neon  Neon
+ashby:nomic  nomic
+ashby:notable  Notable
+ashby:notion  Notion
+ashby:novo  Novo
+ashby:nubank  Nubank
+ashby:openai  OpenAI
+ashby:openrouter  OpenRouter
+ashby:opensea  OpenSea
+ashby:opusclip  OpusClip
+ashby:owkin  Owkin
+ashby:perplexity  Perplexity
+ashby:physicalintelligence  Physical Intelligence
+ashby:pika  Pika
+ashby:pinecone  Pinecone
+ashby:plaid  Plaid
+ashby:poolside  Poolside
+ashby:posthog  PostHog
+ashby:railway  Railway
+ashby:ramp  Ramp
+ashby:reka  Reka
+ashby:relay  Relay Technologies
+ashby:relevanceai  Relevance AI
+ashby:render  Render
+ashby:replit  Replit
+ashby:rewind  Rewind
+ashby:rime  Rime Labs
+ashby:rogo  Rogo
+ashby:rutter  Rutter
+ashby:sanity  Sanity
+ashby:saronic  Saronic Technologies
+ashby:scribe  Scribe
+ashby:secureframe  Secureframe
+ashby:sentry  Sentry
+ashby:sesame  Sesame
+ashby:sierra  Sierra
+ashby:skydio  Skydio
+ashby:snowflake  Snowflake
+ashby:snyk  Snyk
+ashby:speak  Speak
+ashby:suno  Suno
+ashby:supabase  Supabase
+ashby:synthesia  Synthesia
+ashby:tango  Tango
+ashby:tavily  Tavily
+ashby:tavus  Tavus
+ashby:temporal  Temporal Technologies
+ashby:tennr  Tennr
+ashby:titan  Titan
+ashby:trychroma  Chroma
+ashby:unit  Unit
+ashby:unstructured  Unstructured Technologies Inc.
+ashby:vanta  Vanta
+ashby:vapi  Vapi
+ashby:vitally  Vitally
+ashby:weaviate  Weaviate
+ashby:workos  WorkOS
+ashby:writer  WRITER
+ashby:zapier  Zapier
+
+# --- Greenhouse ---
+greenhouse:affirm  Affirm
+greenhouse:agilityrobotics  Agility Robotics
+greenhouse:airbnb  Airbnb
+greenhouse:airtable  Airtable
+greenhouse:algolia  Algolia
+greenhouse:alpaca  Alpaca
+greenhouse:alphasense  AlphaSense
+greenhouse:anaplan  Anaplan
+greenhouse:anthropic  Anthropic
+greenhouse:apolloio  Apollo.io
+greenhouse:arizeai  Arize AI
+greenhouse:asana  Asana
+greenhouse:assemblyai  AssemblyAI
+greenhouse:attentive  Attentive
+greenhouse:betterment  Betterment
+greenhouse:block  Block
+greenhouse:braze  Braze
+greenhouse:brex  Brex
+greenhouse:calendly  Calendly
+greenhouse:carta  Carta
+greenhouse:checkr  Checkr
+greenhouse:chime  Chime
+greenhouse:cloudflare  Cloudflare
+greenhouse:cockroachlabs  Cockroach Labs
+greenhouse:coinbase  Coinbase
+greenhouse:consensys  MetaMask
+greenhouse:contentful  Contentful
+greenhouse:coreweave  CoreWeave
+greenhouse:coursera  Coursera
+greenhouse:cresta  Cresta
+greenhouse:current  Current
+greenhouse:customerio  Customer.io
+greenhouse:databricks  Databricks
+greenhouse:datadog  Datadog
+greenhouse:descript  Descript
+greenhouse:dialpad  Dialpad
+greenhouse:discord  Discord
+greenhouse:dremio  Dremio
+greenhouse:drivewealth  DriveWealth
+greenhouse:duolingo  Duolingo
+greenhouse:elastic  Elastic
+greenhouse:eudia  Eudia
+greenhouse:everlaw  Everlaw
+greenhouse:faire  Faire
+greenhouse:fastly  Fastly
+greenhouse:figma  Figma
+greenhouse:figureai  Figure
+greenhouse:fireblocks  Fireblocks
+greenhouse:fivetran  Fivetran
+greenhouse:flatironhealth  Flatiron Health
+greenhouse:flexport  Flexport
+greenhouse:formlabs  Formlabs
+greenhouse:galileo  Galileo
+greenhouse:generatebiomedicines  Generate Biomedicines
+greenhouse:gitlab  GitLab
+greenhouse:gongio  Gong.io
+greenhouse:grafanalabs  Grafana Labs
+greenhouse:gusto  Gusto
+greenhouse:handshake  Pioneer Consulting
+greenhouse:heygen  HeyGen
+greenhouse:highnote  Highnote
+greenhouse:honeycomb  Honeycomb.io
+greenhouse:humeai  Hume AI
+greenhouse:inflectionai  Inflection AI
+greenhouse:instacart  Instacart
+greenhouse:intercom  Fin
+greenhouse:khanacademy  Khan Academy
+greenhouse:klaviyo  Klaviyo
+greenhouse:labelbox  Labelbox
+greenhouse:launchdarkly  LaunchDarkly
+greenhouse:lithic  Lithic
+greenhouse:lovable  Lovable
+greenhouse:lyft  Lyft
+greenhouse:make  Make
+greenhouse:masterclass  MasterClass
+greenhouse:mercury  Mercury
+greenhouse:mixpanel  Mixpanel
+greenhouse:mongodb  MongoDB
+greenhouse:monzo  Monzo
+greenhouse:motive  Motive
+greenhouse:netlify  Netlify
+greenhouse:nuro  Nuro
+greenhouse:observeai  Observe.AI
+greenhouse:okta  Okta
+greenhouse:oscar  Oscar Health
+greenhouse:otter  Otter
+greenhouse:pagerduty  PagerDuty
+greenhouse:parloa  Parloa
+greenhouse:pathai  PathAI
+greenhouse:pendo  Pendo
+greenhouse:pinterest  Pinterest
+greenhouse:planetlabs  Planet
+greenhouse:planetscale  PlanetScale
+greenhouse:polyai  PolyAI
+greenhouse:postscript  Postscript
+greenhouse:profluent  Profluent
+greenhouse:public  Public
+greenhouse:reddit  Reddit
+greenhouse:relativity  Relativity Space
+greenhouse:ripple  Ripple
+greenhouse:robinhood  Robinhood
+greenhouse:rocketlab  Rocket Lab Corporation
+greenhouse:salesloft  Salesloft
+greenhouse:samsara  Samsara
+greenhouse:scaleai  Scale AI
+greenhouse:sendbird  Sendbird
+greenhouse:smartsheet  Smartsheet
+greenhouse:snorkelai  Snorkel AI
+greenhouse:sofi  SoFi
+greenhouse:spacex  SpaceX
+greenhouse:speechmatics  Speechmatics
+greenhouse:squarespace  Squarespace
+greenhouse:stabilityai  Stability AI
+greenhouse:stackblitz  Bolt.new
+greenhouse:starburst  Starburst
+greenhouse:step  Step
+greenhouse:stripe  Stripe
+greenhouse:suki  Suki
+greenhouse:tailscale  Tailscale
+greenhouse:tavily  Tavily
+greenhouse:tenstorrent  Tenstorrent
+greenhouse:toast  Toast
+greenhouse:togetherai  Together AI
+greenhouse:truebill  Rocket Money
+greenhouse:turing  Turing
+greenhouse:twilio  Twilio
+greenhouse:typeface  Typeface
+greenhouse:udio  Udio
+greenhouse:vercel  Vercel
+greenhouse:verkada  Verkada
+greenhouse:waymo  Waymo
+greenhouse:webflow  Webflow
+greenhouse:wise  Wise Worksite Field Sales
+greenhouse:wizinc  Wiz, Inc.
+greenhouse:yotpo  Yotpo
+
+# --- Lever ---
+lever:aircall  Aircall
+lever:anchorage  Anchorage Digital
+lever:arcadia  Arcadia
+lever:contentsquare  Contentsquare
+lever:finch  Finch
+lever:greenlight  Greenlight Financial Technology
+lever:logrocket  LogRocket
+lever:lyrahealth  Lyra Health
+lever:neon  Neon Pagamentos
+lever:outreach  Outreach
+lever:palantir  Palantir Technologies
+lever:pigment  Pigment
+lever:relay  Relay
+lever:ro  Ro
+lever:shieldai  Shield AI
+lever:wealthfront  Wealthfront
+lever:zoox  Zoox
+
+# --- learned from searches ---
+ashby:traba  Traba
+ashby:deaa6ad2-d184-436b-b69e-17f761da1d94  Spring Health
+lever:provectus  Provectus
+ashby:EliseAI  Elise A.I. Technologies Corp.
+ashby:socure  Socure
+ashby:gen-digital  Gen Digital Inc.
+ashby:Tabs  TABS
+greenhouse:withcoverage  Unknown company
+ashby:campfire  campfire
+ashby:global-x-etfs  GLOBAL X ETFs
+ashby:ironcladhq  Ironclad
+ashby:kaizenlabs  Unknown company
+ashby:Cyberhaven  Cyberhaven
+ashby:refractal  REFRACTAL
+ashby:sagetap  Sagetap
+ashby:capsa  CAPSA
+ashby:legora  Legora
+ashby:airwallex  Airwallex
+greenhouse:aircallioinc  Aircall
+ashby:harbor  Harbor
+greenhouse:keepersecurity  Keeper Security, Inc.
+ashby:impact-networking  Impact Networking, LLC
+ashby:savvy  Savvy Wealth
+greenhouse:florencehealthcare  Florence HC
+lever:wadetrim  Wade Trim
+lever:Burro  Augean Robotics
+greenhouse:oura  oura
+ashby:conveydev  Convey
+ashby:upguard  UpGuard
+ashby:heidihealth.com.au  Heidi
+ashby:dualentry  DualEntry
+ashby:clasp-group  CLASP
+ashby:Wisdom-AI  Wisdom AI
+ashby:fal-ai  fal - Features & Labels
+lever:cloudinary  Cloudinary
+lever:basis  Basis
+ashby:Perk  Perk
+lever:everbridge  Everbridge

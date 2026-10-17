@@ -1,0 +1,9 @@
+[server]
+# Only this computer can open the app, so your resume is never served to your network.
+address = "localhost"
+# Resumes are small; this also caps what a malicious file can make the parser chew on.
+maxUploadSize = 5
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false

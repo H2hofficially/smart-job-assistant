@@ -1,0 +1,434 @@
+{
+  "person": {
+    "name": "Hari Prasath Sundaresan",
+    "title": "AI & Automation Specialist",
+    "city": "Atlanta, GA",
+    "email": "H2hofficially@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/h2hofficially",
+    "github": "https://github.com/H2hofficially",
+    "website": "https://darkoapp.com"
+  },
+  "headline": "I build AI agents and automations that run every day.",
+  "lede": "A person approves anything that goes public. The rest runs, reports and recovers on its own.",
+  "about": "Before DarkoApp I spent six years running Nxgen Media, a VFX company in India and the USA, and sold it in 2025. I started in film and TV production.",
+  "cta": {
+    "label": "See DarkoApp live",
+    "url": "https://darkoapp.com"
+  },
+  "facts_line": [
+    "**2** systems in production",
+    "**4** social channels automated",
+    "health check every **15 min**",
+    "rollback ready on **every deploy**",
+    "**6 years** running a VFX company"
+  ],
+  "work_intro": "All of these are my own work, built with AI coding agents (Claude Code, Codex, Cline). I own the architecture, testing, deployment and daily operation.",
+  "facts": [
+    {
+      "id": "content_agent",
+      "text": "A content agent picks a topic, writes a script, checks its own logic, renders slides and video, and schedules posts every day."
+    },
+    {
+      "id": "approval_gate",
+      "text": "Every post waits for a person to approve, reject or redo it in Telegram before it can publish."
+    },
+    {
+      "id": "social_channels",
+      "text": "Posts go to X, LinkedIn, Bluesky and Telegram through the Postiz and Buffer APIs, with captions fitted to each platform's limits."
+    },
+    {
+      "id": "monitoring",
+      "text": "Health checks run every 15 minutes and send one alert per issue per day."
+    },
+    {
+      "id": "rollback",
+      "text": "Every deploy ships with a rollback image, a database snapshot and a config backup."
+    },
+    {
+      "id": "plans_tests",
+      "text": "Each feature starts as a written plan with its own test suite; the content engine's latest suite has 70 checks."
+    },
+    {
+      "id": "gpu_cost",
+      "text": "I moved video rendering to an owned GPU over a Tailscale private network, removing about $2.50 of cloud GPU cost per video, and the bot asks before it spends money on cloud GPUs."
+    },
+    {
+      "id": "darkoapp",
+      "text": "I built and run DarkoApp, a live AI web and mobile app on Supabase (Postgres, row-level security, edge functions) with Stripe billing."
+    },
+    {
+      "id": "model_fallback",
+      "text": "The DarkoApp engine classifies intent, streams answers and switches to a second model when the first times out."
+    },
+    {
+      "id": "rag",
+      "text": "I built retrieval (RAG) with embeddings and vector search over about 140 curated passages, plus a probe tool that shows what a question retrieves."
+    },
+    {
+      "id": "smoke_tests",
+      "text": "GitHub Actions smoke tests call the live AI engine and compare results with a saved baseline before and after prompt changes."
+    },
+    {
+      "id": "integrations",
+      "text": "I connected Supabase, Stripe, Telegram, Postiz, Buffer, Gemini, DeepSeek, Venice, RunPod, Replicate and GitHub Actions with REST calls, webhooks and scheduled jobs."
+    },
+    {
+      "id": "n8n_and_code",
+      "text": "I use n8n in my content pipeline and build the same triggers, webhooks, retries and approval steps in code when a workflow needs more control."
+    },
+    {
+      "id": "mcp",
+      "text": "I built an MCP server in Node and TypeScript, with 38 tests, so AI assistants can call DarkoApp's engine as a tool."
+    },
+    {
+      "id": "publishing",
+      "text": "I built approval-gated publishing: a draft-to-published lifecycle enforced in SQL, with prerendered SEO pages."
+    },
+    {
+      "id": "media_lab",
+      "text": "I run a ComfyUI render engine on an RTX 3090 for image, lip-synced video, voice and music generation (Wan 2.2, MiniMax, Flux, Qwen-Image)."
+    },
+    {
+      "id": "lora",
+      "text": "I trained a Wan 2.2 character LoRA to keep one identity consistent across shots."
+    },
+    {
+      "id": "content_volume",
+      "text": "My pipelines produce 4–5 pieces of image, video and voice content a day (ComfyUI, n8n)."
+    },
+    {
+      "id": "job_assistant",
+      "text": "I built a job search assistant (Python, Streamlit, Groq) that searches Indeed, LinkedIn and about 300 company career boards, scores each posting on three models in parallel, and tailors a resume, cover letter and portfolio page per job."
+    },
+    {
+      "id": "autofill",
+      "text": "My job assistant fills application forms in a visible browser from saved answers and never clicks Submit on its own."
+    },
+    {
+      "id": "outreach",
+      "text": "I built a 3,000-contact outreach database with automated newsletter campaigns and ongoing sourcing."
+    },
+    {
+      "id": "local_models",
+      "text": "I run open-weight models (Qwen, Gemma) locally and compare self-hosted and hosted models on cost, latency and quality."
+    },
+    {
+      "id": "ga4",
+      "text": "I used GA4 bounce-rate data to choose the homepage headline for darkoapp.com."
+    },
+    {
+      "id": "ai_coding",
+      "text": "I build with AI coding agents (Claude Code, Codex, Cline) and own the architecture, testing, deployment and operations."
+    },
+    {
+      "id": "nxgen",
+      "text": "I founded and ran Nxgen Media, a VFX company in India and the USA, from 2019 to 2025, won and delivered client projects, and sold the company."
+    },
+    {
+      "id": "ves",
+      "text": "I am board treasurer and social media manager for VES Georgia, the Visual Effects Society chapter, and ran virtual voting and technical support for the VES Awards."
+    },
+    {
+      "id": "film_india",
+      "text": "I worked on film productions in India from 2011 to 2019 as an assistant editor and assistant director, and wrote original screenplays registered with the writers' union in India."
+    },
+    {
+      "id": "tv_safety",
+      "text": "From 2020 to 2023 I was a Health and Safety PA on US productions including Servant (Season 4), The Wonder Years and Descendants: The Rise of Red."
+    }
+  ],
+  "projects": [
+    {
+      "id": "content_engine",
+      "title": "Content automation engine",
+      "sub": "Daily social content, from topic to scheduled post, with approval on every piece.",
+      "links": [],
+      "flow": [
+        {
+          "kind": "trigger",
+          "k": "Trigger",
+          "n": "Topic bank",
+          "t": "Supabase · 110 topics"
+        },
+        {
+          "kind": "ai",
+          "k": "LLM",
+          "n": "Write script",
+          "t": "hook, setup, lesson"
+        },
+        {
+          "kind": "ai",
+          "k": "LLM",
+          "n": "Logic check",
+          "t": "rejects repeats"
+        },
+        {
+          "kind": "render",
+          "k": "Render",
+          "n": "Slides + video",
+          "t": "Chromium · ffmpeg"
+        },
+        {
+          "kind": "gate",
+          "k": "Human",
+          "n": "Approve",
+          "t": "Telegram"
+        },
+        {
+          "kind": "api",
+          "k": "API",
+          "n": "Schedule",
+          "t": "Postiz · Buffer"
+        },
+        {
+          "kind": "out",
+          "k": "Output",
+          "n": "Posted",
+          "t": "X · LinkedIn · Bluesky · Telegram"
+        }
+      ],
+      "points": [
+        "Two formats from one script: chat-style Reels and 8-slide carousels. Topics come from a 110-topic bank in Supabase, and anti-repetition rules reject hooks and lessons used recently.",
+        "Every post waits for approve, reject or redo in Telegram. Captions are fitted per platform, such as Bluesky's 300-character limit.",
+        "Health check every 15 minutes with de-duplicated alerts. Each deploy ships with a rollback image, a database snapshot and 70 automated checks.",
+        "Heavy video renders moved to an owned GPU reached over a Tailscale private network, removing about $2.50 of cloud GPU cost per video. The bot asks before it spends money on cloud GPUs."
+      ],
+      "stack": "Python · Docker Compose · Linux VPS · Telegram Bot API · Supabase · headless Chromium · ffmpeg · Postiz · Buffer · Tailscale"
+    },
+    {
+      "id": "darkoapp",
+      "title": "DarkoApp",
+      "sub": "A live AI communication coach for dating, on web and mobile.",
+      "links": [
+        {
+          "label": "darkoapp.com",
+          "url": "https://darkoapp.com"
+        },
+        {
+          "label": "the app",
+          "url": "https://terminal.darkoapp.com"
+        }
+      ],
+      "flow": [
+        {
+          "kind": "trigger",
+          "k": "Input",
+          "n": "User message",
+          "t": "text, voice, image"
+        },
+        {
+          "kind": "ai",
+          "k": "LLM",
+          "n": "Classify intent",
+          "t": "topic + intent"
+        },
+        {
+          "kind": "ai",
+          "k": "RAG",
+          "n": "Retrieve passages",
+          "t": "embeddings · vector search"
+        },
+        {
+          "kind": "ai",
+          "k": "LLM",
+          "n": "Stream answer",
+          "t": "fallback on timeout"
+        },
+        {
+          "kind": "out",
+          "k": "Output",
+          "n": "Structured reply",
+          "t": "JSON · follow-up push"
+        }
+      ],
+      "points": [
+        "Expo / React Native + web in TypeScript, on Supabase: Postgres with row-level security, auth, Deno edge functions and scheduled jobs. Stripe Checkout through the raw REST API.",
+        "Automatic switch to a second model when the first times out. A normalizer and leak guard keep structured output from breaking the interface.",
+        "Retrieval over about 140 curated passages. I purged around 2,400 noisy OCR rows after testing what questions actually retrieved.",
+        "GitHub Actions smoke tests call the live engine and compare results with a saved baseline before and after every prompt change."
+      ],
+      "stack": "TypeScript · Expo · Supabase · Postgres · DeepSeek · Gemini · Stripe · GitHub Actions · Netlify · Astro"
+    },
+    {
+      "id": "job_assistant",
+      "title": "Job search assistant",
+      "sub": "Finds, ranks and prepares job applications, including this page.",
+      "links": [],
+      "flow": [
+        {
+          "kind": "trigger",
+          "k": "Input",
+          "n": "My resume",
+          "t": "PDF or DOCX"
+        },
+        {
+          "kind": "api",
+          "k": "API",
+          "n": "Search",
+          "t": "Indeed · LinkedIn · ~300 boards"
+        },
+        {
+          "kind": "ai",
+          "k": "LLM",
+          "n": "Score fit",
+          "t": "3 models in parallel"
+        },
+        {
+          "kind": "ai",
+          "k": "LLM",
+          "n": "Tailor",
+          "t": "resume · letter · page"
+        },
+        {
+          "kind": "gate",
+          "k": "Human",
+          "n": "I submit",
+          "t": "browser auto-fill"
+        }
+      ],
+      "points": [
+        "Searches Indeed and LinkedIn, plus about 300 company career boards through the public Greenhouse, Lever and Ashby APIs.",
+        "Scores every posting against my resume on three Groq models in parallel to stay inside free-tier rate limits.",
+        "Writes a tailored resume, cover letter and portfolio page for each job. Every claim on the page comes from a bank of my own verified facts.",
+        "Fills application forms in a visible browser from saved answers. It never clicks Submit."
+      ],
+      "stack": "Python · Streamlit · Groq · LangChain · python-jobspy · Playwright · GitHub Pages"
+    },
+    {
+      "id": "publishing_mcp",
+      "title": "Publishing platform and MCP server",
+      "sub": "Approval-gated publishing, plus a tool that AI assistants can call directly.",
+      "links": [],
+      "flow": [
+        {
+          "kind": "trigger",
+          "k": "Draft",
+          "n": "New case file",
+          "t": "Supabase"
+        },
+        {
+          "kind": "gate",
+          "k": "Human",
+          "n": "Review",
+          "t": "admin approval"
+        },
+        {
+          "kind": "api",
+          "k": "Rule",
+          "n": "Publish",
+          "t": "SQL trigger"
+        },
+        {
+          "kind": "render",
+          "k": "Build",
+          "n": "Prerender pages",
+          "t": "SEO · sitemap"
+        },
+        {
+          "kind": "out",
+          "k": "Output",
+          "n": "Social drafts",
+          "t": "Postiz API"
+        }
+      ],
+      "points": [
+        "Planned and built in 8 phases. Lifecycle rules live in SQL, and a test fails if the app's copy of those rules drifts.",
+        "Pages are prerendered with the public key, so row-level security makes drafts unreadable by design.",
+        "MCP server in Node / TypeScript (Streamable HTTP) with 38 tests and separate client and server tokens.",
+        "The social integration was verified end to end with real draft posts on X, Telegram and Bluesky before anything went public."
+      ],
+      "stack": "Node · TypeScript · MCP · Supabase migrations · SQL triggers · Postiz API"
+    },
+    {
+      "id": "media_lab",
+      "title": "Generative media lab",
+      "sub": "Image, video, voice and music generation, run locally and in the cloud.",
+      "links": [],
+      "flow": [
+        {
+          "kind": "ai",
+          "k": "LLM",
+          "n": "Shot list",
+          "t": "script to shots"
+        },
+        {
+          "kind": "render",
+          "k": "Image",
+          "n": "Reference stills",
+          "t": "Qwen-Image · Flux"
+        },
+        {
+          "kind": "render",
+          "k": "Video",
+          "n": "Animate",
+          "t": "Wan 2.2 · MiniMax"
+        },
+        {
+          "kind": "render",
+          "k": "Audio",
+          "n": "Voice + music",
+          "t": "TTS · AI music"
+        },
+        {
+          "kind": "out",
+          "k": "Output",
+          "n": "Final cut",
+          "t": "ffmpeg"
+        }
+      ],
+      "points": [
+        "ComfyUI render engine on an RTX 3090 with lip-synced character video, Wan 2.2, Qwen-Image-Edit and Flux.",
+        "Trained a Wan 2.2 character LoRA (ai-toolkit, 2,000 steps) to keep one identity consistent across shots.",
+        "Cloud engines when needed: RunPod serverless, Replicate and Venice. A thermal guard pauses GPU jobs at 83 °C and resumes at 70 °C.",
+        "An earlier storyboard-to-video pipeline sent each shot to the right engine: Wan for motion, InfiniteTalk for talking shots."
+      ],
+      "stack": "ComfyUI · Wan 2.2 · MiniMax · Flux · Qwen-Image · Seedream · Seedance · RunPod · Replicate · Venice"
+    }
+  ],
+  "principles": [
+    {
+      "title": "A person approves anything public",
+      "text": "Every post waits for a tap in Telegram. New integrations are tested with real drafts before they can publish."
+    },
+    {
+      "title": "It tells me when it breaks",
+      "text": "Health checks every 15 minutes, one alert per issue per day, and fallbacks that ask before they spend money."
+    },
+    {
+      "title": "Every deploy can be undone",
+      "text": "A tagged rollback image, a database snapshot and a config backup go out before each release."
+    },
+    {
+      "title": "Written down first",
+      "text": "Each feature starts as a written plan with its own test suite, and each project keeps handoff notes for the next person."
+    }
+  ],
+  "skills": [
+    {
+      "area": "AI and LLMs",
+      "main": "Claude, ChatGPT, Gemini, DeepSeek, Groq, Venice",
+      "more": "prompt and system design, structured output, model fallback, RAG, classifiers, MCP, local models (Ollama, Qwen, Gemma)"
+    },
+    {
+      "area": "Automation and integration",
+      "main": "n8n, REST APIs, webhooks, Telegram Bot API, Postiz, Buffer, Stripe",
+      "more": "Supabase Edge Functions, cron, Docker Compose, GitHub Actions, Tailscale, Netlify"
+    },
+    {
+      "area": "Code and data",
+      "main": "Python, TypeScript / JavaScript, SQL",
+      "more": "Postgres, row-level security, migrations, Streamlit, Playwright, HTML / CSS, ffmpeg, GA4"
+    },
+    {
+      "area": "Creative AI",
+      "main": "ComfyUI, Wan 2.2, MiniMax, Flux, Qwen-Image",
+      "more": "Seedream, Seedance, InfiniteTalk, LoRA training, text-to-speech, AI music"
+    },
+    {
+      "area": "Business and production",
+      "main": "Company operations, client acquisition, a full business exit",
+      "more": "board treasurer and social media manager at VES Georgia, film and TV production"
+    }
+  ],
+  "general_title": "AI & Automation Specialist · Creative Technologist"
+}
